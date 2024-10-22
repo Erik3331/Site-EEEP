@@ -12,7 +12,7 @@ function Carrossel(props) {
     slidesToShow: 1,  // Número de slides a mostrar
     slidesToScroll: 1,// Número de slides a rolar
     dots: true,       // Exibir os pontinhos de navegação
-    arrows: true,     // Mostrar botões de próxima/anterior
+    arrows: false,     // Mostrar botões de próxima/anterior
   };
 
   return (
