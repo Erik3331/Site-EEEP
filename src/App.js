@@ -4,6 +4,7 @@ import Carrossel from './components/Carrossel';
 import Section from './components/Section';
 import Footer from './components/Footer';
 import "./App.css"
+import { Routes } from "./Routes"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         />
       </main>
       <Footer/>
+      <Routes />
     </div>
   );
 }
