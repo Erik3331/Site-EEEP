@@ -1,4 +1,6 @@
 .carrossel-container {
+  margin: 0;
+  padding: 0%;
 }
 
 .slick-slide {
@@ -8,6 +10,10 @@
   height: 200px; 
   line-height: 200px;
   font-size: 30px; 
+}
+
+.slick-dots li{
+  position: absolute;
 }
 
 .slick-dots li button:active::before, .slick-dots li.slick-active button::before {

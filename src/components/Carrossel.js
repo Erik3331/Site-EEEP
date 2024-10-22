@@ -11,7 +11,6 @@ function Carrossel(props) {
     speed: 500,       // Velocidade de transição
     slidesToShow: 1,  // Número de slides a mostrar
     slidesToScroll: 1,// Número de slides a rolar
-    dots: true,       // Exibir os pontinhos de navegação
     arrows: false,     // Mostrar botões de próxima/anterior
   };
 
