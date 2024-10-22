@@ -1,6 +1,4 @@
 .carrossel-container {
-  width: 90%;
-  margin: 50px auto;
 }
 
 .slick-slide {
@@ -14,6 +12,7 @@
 
 .slick-dots li button:active::before, .slick-dots li.slick-active button::before {
   color: var(--tom-verde);
+  position: relative;
 }
 
 .slick-prev:before, .slick-next:before {
