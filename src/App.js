@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
 import Header from './components/Header';
 import Carrossel from './components/Carrossel';
 import Section from './components/Section';
 import Footer from './components/Footer';
+import "./App.css"
 
 
 function App() {
